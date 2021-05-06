@@ -20,11 +20,11 @@ public class MySQLConnect
   private Connection con;
   
   public MySQLConnect(String host, String database, String user, String password, Integer port) {
-    this; HOST = host;
-    this; DATABASE = database;
-    this; USER = user;
-    this; PASSWORD = password;
-    this; PORT = port;
+    this.HOST = host;
+    this.DATABASE = database;
+    this.USER = user;
+    this.PASSWORD = password;
+    this.PORT = port;
     
     connect();
   }
